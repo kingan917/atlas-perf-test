@@ -1,0 +1,608 @@
+[
+    {
+        "name": "RECON_RECORD_ID",
+        "type": "int",
+        "unique": "true"
+    },
+    {
+        "name": "SIDE_ID",
+        "type": "int",
+        "allowed_values": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "ACCOUNT_NUMBER",
+        "type": "string"
+    },
+    {
+        "name": "ID_RECON",
+        "type": "int",
+        "allowed_values": [
+            9009,
+            9090,
+            9099,
+            9900,
+            9990,
+            9999
+        ]
+    },
+    {
+        "name": "VERSION_ID",
+        "type": "int",
+        "allowed_values": [
+            1
+        ]
+    },
+    {
+        "name": "MINOR_VERSION_ID",
+        "type": "int",
+        "allowed_values": [
+            0
+        ]
+    },
+    {
+        "name": "RUN_ID",
+        "type": "int"
+    },
+    {
+        "name": "SKEWED_ID",
+        "type": "int",
+        "skewed": "true"
+    },
+    {
+        "name": "UNIQUE_RANGE_ID",
+        "type": "int",
+        "unique_range": 500
+    },
+    {
+        "name": "STATUS",
+        "type": "string",
+        "allowed_values": [
+            "NEW",
+            "SUCCESS",
+            "FAILED",
+            "PROCESSED",
+            "REJECTED"
+        ]
+    },
+    {
+        "name": "LOADED",
+        "type": "string",
+        "allowed_values": [
+            "YES",
+            "NO"
+        ]
+    },
+    {
+        "name": "EFFECTIVE_DATE",
+        "type": "date"
+    },
+    {
+        "name": "FILENAME",
+        "type": "string",
+        "allowed_values": [
+            "FILE1",
+            "FILE2",
+            "FILE3",
+            "FILE4",
+            "FILE5"
+        ]
+    },
+    {
+        "name": "SIDE",
+        "type": "string",
+        "allowed_values": [
+            "SIDE1",
+            "SIDE2",
+            "SIDE3",
+            "SIDE4",
+            "SIDE5"
+        ]
+    },
+    {
+        "name": "STATEMENT_DATE",
+        "type": "date"
+    },
+    {
+        "name": "A1",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A2",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A3",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A4",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A5",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A6",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A7",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A8",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A9",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A10",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A11",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A12",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A13",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A14",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A15",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A16",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A17",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A18",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A19",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A20",
+        "type": "date",
+        "unique": false
+    },
+    {
+        "name": "A21",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A22",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A23",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A24",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A25",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A26",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A27",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A28",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A29",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A30",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A31",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A32",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A33",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A34",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A35",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A36",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A37",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A38",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A39",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A40",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A41",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A42",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A43",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A44",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A45",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A46",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A47",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A48",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A49",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A50",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A51",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A52",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A53",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A54",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A55",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A56",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A57",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A58",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A59",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A60",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A61",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A62",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A63",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A64",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A65",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A66",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A67",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A68",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A69",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A70",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A71",
+        "type": "string",
+        "unique": false
+    },
+    {
+        "name": "A72",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A73",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A74",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A75",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A76",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A77",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A78",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A79",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A80",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A81",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A82",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A83",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A84",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A85",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A86",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A87",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A88",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A89",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A90",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A91",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A92",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A93",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A94",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A95",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A96",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A97",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A98",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A99",
+        "type": "int",
+        "unique": false
+    },
+    {
+        "name": "A100",
+        "type": "int",
+        "unique": false
+    }
+]
