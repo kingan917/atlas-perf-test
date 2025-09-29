@@ -65,10 +65,10 @@ class MongoSampleUser(MongoUser):
         Executed every time a new test is started - place init code here
         """
         # prepare the collection
-        # index1 = pymongo.IndexModel([('first_name', pymongo.ASCENDING), ("last_name", pymongo.DESCENDING)],
-                                    # name="idx_first_last")
+        # index1 = [pymongo.IndexModel([('first_name', pymongo.ASCENDING), ("last_name", pymongo.DESCENDING)],
+                                    # name="idx_first_last")]
         index1 = []
-        self.collection, self.collection_secondary = self.ensure_collection(DEFAULTS['COLLECTION_NAME'], [index1])
+        self.collection, self.collection_secondary = self.ensure_collection(DEFAULTS['COLLECTION_NAME'], index1)
         self.name_cache = []
 
     @mongodb_task(weight=int(DEFAULTS['INSERT_WEIGHT']))
