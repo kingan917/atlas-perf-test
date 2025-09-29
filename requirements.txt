@@ -1,0 +1,5 @@
+locust
+pymongo
+dnspython
+faker
+pydantic
